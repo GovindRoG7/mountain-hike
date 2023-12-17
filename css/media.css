@@ -1,0 +1,160 @@
+/*for small devices*/
+@media screen and (max-width:305px){
+    .home_container, .nav_container{
+        margin-inline:1rem;
+    }
+    .home_title{
+        font-size:2rem;
+    }
+    
+    .home_bird-2{
+        right: -2rem;
+    }
+    
+    .home_bird-1{
+        bottom:15rem;
+        left:-0.01rem;
+    }
+}
+
+/*for taller devices*/
+@media screen and(min-width:376px) and (min-height: 800px){
+    .home_container{
+       padding-top: 10rem;
+    }
+    .home_images img{
+        width:700px;
+        left: -12rem;
+    }
+    
+}
+
+/*for medium devices*/
+@media screen and (min-width:480px){
+    .home_content{
+        max-width: 305px;
+    }
+    .home_bird-2{
+        right: -3rem;
+    }
+    .home_images img{
+        width:initial;
+        left: 0;
+    }   
+}
+
+
+/*for large devices*/
+@media screen and (min-width:1023px){
+    .nav_container{
+        height:5.5rem;
+        column-gap:4rem;
+    }
+
+    .nav_toggle , .nav_close{
+        display:none;
+    }
+
+    .nav_menu{
+        width:100%;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+    }
+
+    .nav_list{
+        flex-direction:row;
+        column-gap:5rem;
+    }
+
+    .nav_buttons{
+        flex-direction:row;
+        column-gap:3rem;
+    }
+
+    .nav_logo{
+        width:48px;
+        flex-basis:5%;
+    }
+
+    .home_content{
+        max-width: 550px;
+    }
+    .home_data{
+        row-gap:1rem;
+    }
+    .home_subtitle{
+        font-size:normal;
+    }
+    .home_description{
+        margin-bottom:3rem;
+    }
+
+    .home_bird-1{
+        bottom: 12rem;
+        
+    }
+    .home_bird-2{
+        right: 3rem;
+    }
+
+}
+@media  screen and (min-width:1120px) {
+    .nav_container , .home_container{
+        margin-inline:auto;
+    }
+
+    .home-bird-2{
+        right:5rem;
+    }
+    
+}
+
+
+@media  screen and(min-width:1300px) {
+    .home_container {
+        height:950px;
+        padding-top:10rem;
+    }
+
+    .home_bird-1, .home_bird-2{
+        width:80px;
+    }
+    .home_bird-1{
+        bottom:-7rem;
+        left:-7rem;
+    }
+    .home_bird-2{
+        top:0;
+        right:-6rem;
+    }
+
+    .home_images img{
+        bottom:-3rem;
+    }
+    ::-webkit-scrollbar{
+        width: .6rem;
+        border-radius: .5rem;
+        background-color: hsl(220, 24% , 15%);
+    }
+    ::-webkit-scrollbar-thumb{
+    
+        border-radius: .5rem;
+        background-color: hsl(220, 24% , 25%);
+    }
+
+}
+
+
+/*for 2k resolution*/
+@media screen and (min-width:2048px){
+    .nav_container , .home_container{
+        max-width:1300px;
+
+    }
+    .home_container{
+        height:1200px;
+        padding-top: 15rem;
+    }
+    
+}
