@@ -3,7 +3,6 @@
    
 }
 .home_container{
-    z-index: -1 ;
     padding-top:8rem;
    
 
@@ -14,7 +13,7 @@
     font-size: 28px;
     box-sizing: border-box;
     padding: 0 5rem;
-    z-index: 0;
+    z-index: 1;
 }
 
 
